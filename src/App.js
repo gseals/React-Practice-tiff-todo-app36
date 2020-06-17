@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state={
+  state={
       newItem: "",
       list: []
     }
-  }
 
   updatedInput(key, value) {
     this.setState({
